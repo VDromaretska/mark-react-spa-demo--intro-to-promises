@@ -6,7 +6,7 @@ function printWithDelay(ms: number) {
   // const promise = wrapInPromise({ wait: ms, value: "hello world!" });
   // const promise = wrapInPromise({ wait: ms, value: ["hello", "world!"] });
   const promise = wrapInPromise({ wait: ms, value: ["hello", "world"].length });
-  promise.then((resolveValue) => console.log(resolveValue));
+  promise.then((peanuts) => console.log(peanuts));
 
   console.log("END of function body");
 }
