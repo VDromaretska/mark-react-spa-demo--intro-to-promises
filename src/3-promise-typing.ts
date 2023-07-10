@@ -33,6 +33,6 @@ function printWithDelayAndTypedCallback(message: string) {
   console.log("END of function body");
 }
 
-printWithDelay("hello world!");
+// printWithDelay("hello world!");
 // printWithDelayAndResolvedValue("hello world!");
-// printWithDelayAndTypedCallback("hello world!");
+printWithDelayAndTypedCallback("hello world!");
